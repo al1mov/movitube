@@ -9,5 +9,6 @@
 * {
   font-family: "Inter", sans-serif;
   font-family: "Rethink Sans", sans-serif;
+  /* -webkit-tap-highlight-color: transparent; */
 }
 </style>
