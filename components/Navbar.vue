@@ -2,11 +2,9 @@
 import Logo from "./ui-components/Logo.vue";
 </script>
 <template>
-  <div
-    class="w-screen h-[60px] bg-gray-900 backdrop-blur-lg flex items-center justify-between fixed flex-row z-50"
-  >
+  <div class="w-screen h-[60px] backdrop-blur-3xl bg-gray-500/30">
     <div
-      class="w-[95%] h-full container flex items-center justify-between m-auto"
+      class="w-[95%] h-full flex items-center justify-between m-auto container"
     >
       <div class="flex justify-between">
         <div class="company-logo-item">
