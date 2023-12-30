@@ -11,9 +11,11 @@ const props = defineProps({
       <img
         :src="image_src"
         :alt="{ name }"
-        class="w-[200px] h-[260px] rounded-md object-cover"
+        class="w-[250px] h-[360px] rounded-md object-cover sm:w-[200px] sm:h-[260px]"
       />
     </div>
-    <div class="card-title text-white mt-[10px]">{{ name }}</div>
+    <div class="card-title text-white w-[200px] text-md">
+      {{ new String(name).slice(0, 50) }}
+    </div>
   </div>
 </template>
