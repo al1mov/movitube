@@ -24,7 +24,7 @@ const movies = ref([
   {
     image_src:
       "https://cdn.cinematerial.com/p/297x/8j69zwf0/the-hunger-games-the-ballad-of-songbirds-and-snakes-movie-poster-md.jpg?v=1695215093",
-    name: "Hayot mamot o'yinlari",
+    name: "Hayot mamot o'yinlari blah blah blah vlah nnjejejcejencjecnenc hello enckneknenenjcnj",
   },
   {
     image_src:
@@ -36,7 +36,7 @@ const movies = ref([
 
 <template>
   <div
-    class="items-center m-auto grid grid-cols-2 container gap-[15px] mt-[30px]"
+    class="m-auto grid grid-cols-1 container gap-[15px] mt-[30px] place-content-center place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
   >
     <Card
       v-for="(movie, index) in movies"
