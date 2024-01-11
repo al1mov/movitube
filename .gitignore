@@ -6,6 +6,9 @@
 .cache
 dist
 
+# Vscode user settings file
+.vscode
+
 # Node dependencies
 node_modules
 
