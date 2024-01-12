@@ -1,4 +1,4 @@
-<script lang="ts">
+<script setup>
 // import Navbar from "@/components/Navbar.vue";
 import Carousel from "@/components/Carousel.vue";
 import Movies from "@/components/Movies.vue";
