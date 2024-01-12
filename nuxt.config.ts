@@ -4,7 +4,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Zamonaviy onlayn kinoteatr | MoviTube",
       link: [{ rel: "icon", type: "image/jpg", href: "/custom-fav.jpg" }],
     },
   },
