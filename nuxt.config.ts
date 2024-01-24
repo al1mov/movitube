@@ -17,5 +17,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image", "nuxt-icon", "vue3-carousel-nuxt"],
+  modules: ["@nuxt/image", "nuxt-icon", "vue3-carousel-nuxt", "nuxt-primevue"],
 });

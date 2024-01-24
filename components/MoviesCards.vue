@@ -1,5 +1,6 @@
 <script setup>
 import Card from "./ui-components/Card.vue";
+import Menu from "./ui-components/Menu.vue";
 
 const movies = ref([
   {
@@ -36,7 +37,7 @@ const movies = ref([
 
 <template>
   <div
-    class="m-auto grid grid-cols-1 container gap-[15px] mt-[30px] place-content-center place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+    class="h-auto m-auto grid grid-cols-1 container gap-[15px] mt-[30px] place-content-center place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
   >
     <Card
       v-for="(movie, index) in movies"
@@ -44,5 +45,6 @@ const movies = ref([
       :image_src="movie.image_src"
       :name="movie.name"
     />
+    <Menu />
   </div>
 </template>

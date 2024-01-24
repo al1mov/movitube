@@ -2,10 +2,11 @@
 import Logo from "./ui-components/Logo.vue";
 import Menu from "./ui-components/Menu.vue";
 
-const isOpen = ref(false);
+const isOpen = ref(true);
 
 const toggleHandler = () => {
   isOpen.value = !isOpen.value;
+  console.log(isOpen);
 };
 </script>
 <template>
@@ -27,7 +28,6 @@ const toggleHandler = () => {
             <li>Kategoriyalar</li>
           </ul>
         </div>
-        <Menu v-if="isOpen" />
       </div>
       <div class="flex">
         <div
@@ -43,5 +43,6 @@ const toggleHandler = () => {
         </div>
       </div>
     </div>
+    <Menu :isVisible="isOpen" />
   </div>
 </template>

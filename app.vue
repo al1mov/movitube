@@ -1,6 +1,7 @@
 <script setup>
 // import
 import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 
 useSeoMeta({
   title: "Zamonaviy kinoteatr | Movitube",
@@ -17,6 +18,9 @@ useSeoMeta({
       <Navbar />
     </div>
     <NuxtPage />
+    <div class="footer">
+      <Footer />
+    </div>
   </NuxtLayout>
 </template>
 <style>
